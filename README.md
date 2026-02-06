@@ -165,26 +165,6 @@ Jupyter Notebook
 - **P3 (Moderate)**: 14.52% - Some concerns, higher monitoring needed
 - **P4 (High)**: 11.46% - Significant risk, requires strict controls
 
----
-
-## 🚀 How to Run
-
-1. **Setup Database**
-   ```sql
-   CREATE DATABASE db_p1;
-   -- Import internal_bank_dataset and external_cibil_dataset
-   ```
-
-2. **Execute Analysis**
-   ```bash
-   jupyter notebook sql_project.ipynb
-   ```
-
-3. **Key Notebook Cells to Run:**
-   - Cell 2: Load SQL extension
-   - Cell 3: Database connection
-   - Cell 5: Create final_credit_data view
-   - Subsequent cells: Execute analysis queries
 
 ---
 
